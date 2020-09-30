@@ -1,7 +1,12 @@
 # Crosslingual Transfer Learning for Grammatical Error Correction
-To clone this repository together with the required `facebookresearch/XLM`:
+To clone this repository together with the required `facebookresearch/XLM` and `fastBPE`:
 ```
 git clone https://github.com/facebookresearch/XLM.git
+```
+```
+git clone https://github.com/glample/fastBPE
+cd fastBPE
+g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
 ```
 ## Download our models and bpe codes
 Please download our models from below and put it in the `models` directory.
