@@ -19,5 +19,10 @@ Please download our bpe codes from [here](https://drive.google.com/file/d/1pNJd2
 ## Using the GEC model
 ### Preprocess
 Use `preprocess.sh` to preprocess the file you want to correct errors as shown below.
+```
+preprocess.sh [Input_file] [Language] [bpe_code]
+```
+You can choose either En, Cs or Ru as the language.  
+If you choose something other than En, get the json file for the language you need from [WordFrequency project](https://github.com/hermitdave/FrequencyWords) and save it in the `dic` directory as [Language].json.
 
 ### Correction
