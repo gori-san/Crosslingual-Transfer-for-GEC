@@ -10,3 +10,4 @@ else
 fi
 cd ../fastBPE
 ./fast applybpe $INPUT_FILE.tok.spellcheck.bpe $INPUT_FILE.tok.spellcheck ../Crosslingual-Transfer-for-GEC/$BPE_CODE
+cd ../Crosslingual-Transfer-for-GEC
